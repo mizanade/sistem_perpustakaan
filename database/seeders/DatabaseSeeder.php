@@ -14,9 +14,9 @@ class DatabaseSeeder extends Seeder
     public function run(): void
     {
         User::factory()->create(attributes: [
-            'name' => 'Naura',
-            'username' => 'naora',
-            'email' => 'naorapea@gmail.com',
+            'name' => 'Mizan',
+            'username' => 'zanova',
+            'email' => 'mizanganteng123@gmail.com',
         ]);
 
         $this->call(class: CategorySeeder::class);

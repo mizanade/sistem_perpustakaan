@@ -4,9 +4,7 @@ import { IconInnerShadowBottomRight } from '@tabler/icons-react';
 
 export default function ApplicationLogo({ url = '#', size = 'size-9', isTitle = true }) {
     return (
-        <Link>
-            href={url}
-            className="flex items-center gap-2"
+        <Link href={url} className="flex items-center gap-2">
             <IconInnerShadowBottomRight className={cn('text-orange-500', size)} />
             {isTitle && (
                 <span className="flex flex-col">
